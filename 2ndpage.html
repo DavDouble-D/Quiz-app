@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2ndpage.css">
+</head>
+<body>
+    <span class="span1">
+  <h1>Welcome to the Fun Quiz</h1>
+  </span>
+  
+  <div class="container1" onclick="toggleContainerContents(this)">
+    
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  
+    
+    <div class="container">
+      <div class="sidebar hidden">
+
+        <h1>Your Account</h1>
+        <p><b>Name:</b> <span id="username"></span></p>
+
+        <br><br>
+        <form>
+          <label for="imageUpload"><h3>Select an image</h3></label>
+          <input type="file" id="imageUpload" name="imageUpload" accept="image/*" onchange="showImage(event)">
+          <br><br>
+          <img id="mainImage" src="" alt="Uploaded Image">
+        </form>
+      
+        <br><br><br><br><br>
+<a href="index.html">Logout</a>
+      </div>
+
+
+  <div id="quiz-container">
+    <h1>Quiz</h1>
+    <div id="question"></div>
+    <input type="text" id="answer" placeholder="Your answer">
+    <button onclick="checkAnswer()">Submit</button>
+    <div id="result"></div>
+  </div>
+
+</div>
+  
+    <script src="2ndpage.js"></script>
+</body>
+</html>
+
+
+
+
+

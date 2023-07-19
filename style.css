@@ -1,0 +1,28 @@
+.container {
+  display:flex;
+  /* flex-direction:column; */
+  justify-content:center;
+}
+
+#div, h1 {
+color:greenyellow;
+}
+
+.button{
+width:70px;
+height:25px;
+color:white;
+background:blue;
+}
+
+#form {
+  height:30px;
+  background:brown;
+  color:white;
+}
+body {
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_tWeugYpnPvc4yPTDx_Cdhjav0qS8Rd3sMg&usqp=CAU');
+background-repeat:no-repeat;
+background-position:center;
+/* background-size:1000px; */
+}

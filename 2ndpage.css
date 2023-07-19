@@ -1,0 +1,79 @@
+body {
+    background:rgb(201, 201, 120);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: grid;
+    height: 100vh;
+
+  
+  }
+
+  .sidebar {
+    display:inline;
+    width: 200px;
+    background-color: #c8b9eb;
+    padding: 30px;
+    box-shadow:rgb(168, 16, 16), 30px, 30px;
+  
+  }
+
+#mainImage {
+  width:150px;
+  height:200px;
+  border-radius:50%;
+}
+
+.container1 {
+  display: inline;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.hidden {
+  display:none;
+}
+
+.span1 {
+  color:rgb(9, 56, 9);
+  text-shadow: rgb(43, 79, 197) 2px 1px;
+}
+
+#quiz-container {
+  margin:100px;
+width:450px;
+height:250px;
+border:5px;
+background:rgb(55, 55, 173);
+border-style:solid;   
+border-color:brown;
+box-shadow:rgb(116, 118, 150) 20px 20px;
+}
+
+#question {
+  font-size:40px;
+  color:rgb(201, 218, 201);
+  font-style:italic;
+}
